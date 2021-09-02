@@ -28,7 +28,7 @@ class QuestionSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Question
-        fields = ['question_text', 'question_type', ]
+        fields = ['survey', 'question_text', 'question_type', ]
 
 
 class ChoiceSerializer(serializers.ModelSerializer):
