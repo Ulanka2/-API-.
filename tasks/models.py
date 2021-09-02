@@ -8,7 +8,7 @@ User = get_user_model()
 class Survey(models.Model):
     owner = models.ForeignKey(User, on_delete=models.CASCADE, related_name='tasks', null=True)
     survey_name = models.CharField(max_length=200)
-    pub_date = models.BooleanField(default=False)
+    pub_date = models.DateTimeField(auto_now_add=True)
     end_date = models.DateTimeField()
     survey_description = models.CharField(max_length=200)
 
