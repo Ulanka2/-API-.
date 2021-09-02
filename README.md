@@ -33,12 +33,17 @@ python manage.py runserver
 ```
 ./manage.py runserver
 ```
+```
 http://127.0.0.1:8000/admin/
+```
+```
 user admin
 password admin
-http://127.0.0.1:8000
+```
+```
+http://127.0.0.1:8000/api/v1/survey
 http://127.0.0.1:8000/question/
-
+```
 
 ## Автор
 Azimov Ulan 
