@@ -3,6 +3,6 @@ from tasks.views import SurveyAPIView, QuestionAPIView
 
 
 urlpatterns = [
-    path('', SurveyAPIView.as_view()),
+    path('api/v1/survey/', SurveyAPIView.as_view()),
     path('question/', QuestionAPIView.as_view())
 ]
